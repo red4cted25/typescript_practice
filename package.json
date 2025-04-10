@@ -1,0 +1,16 @@
+{
+  "name": "typescript_practice",
+  "version": "1.0.0",
+  "description": "A mini simulation of a maintainable, scalable user management system to practice enums, interfaces, and functions in typescript.",
+  "license": "MIT",
+  "author": "Nico Diaz",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {}
+}
