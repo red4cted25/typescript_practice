@@ -77,3 +77,13 @@ for (const user of users) {
 console.log('Suspending inactive users...');
 const updatedUsers = suspendInactiveUsers(users);
 console.log('Updated users:', updatedUsers);
+
+// Bonus
+// Create a function to filter users by role
+function filterUsersByRole(users: User[], role: Role): User[] {
+    return users.filter(user => user.role === role);
+}
+
+console.log('Filtering users by role: Member');
+const members = filterUsersByRole(users, Role.Member);
+console.log(members);
